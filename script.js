@@ -95,3 +95,11 @@ x = y = 25 - 10 - 5; // x = y = 10, x = 10
 console.log(x, y);
 const averageAge = ageJonas + ageSarah / 2;
 console.log(ageJonas, ageSarah, averageAge);
+
+const weightMark = 78;
+const weightJohn = 92;
+const heightMark = 1.69;
+const heightJohn = 1.95;
+const BMIMark = weightMark / heightMark ** 2;
+const BMIJohn = weightJohn / (heightJohn * heightJohn);
+console.log(BMIMark, BMIJohn);
