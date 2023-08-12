@@ -108,11 +108,39 @@ const isFullAge = ageSarah >= 18;
 // mulstiple
 // lines`);
 
-const age = 15;
+// const age = 1998;
 
-if (age >= 18) {
-  console.log("Sarah can start driving lecinse");
+// if (age >= 18) {
+//   console.log("Sarah can start driving lecinse");
+// } else {
+//   const yearsLeft = 18 - age;
+//   console.log(`sarah is too young,wait another ${yearsLeft} years :)`);
+// }
+
+// const birthYear = 20;
+// let century;
+// if (birthYear <= 2000) {
+//   century = 20;
+// } else {
+//   century = 21;
+// }
+// console.log(century);
+const BMI = 30;
+const BMIMark = 24;
+const BMIjohn = 25;
+
+if (BMI <= 30) {
+  console.log("you are healthy");
 } else {
-  const yearsLeft = 18 - age;
-  console.log(`sarah is too young,wait another ${yearsLeft} years :)`);
+  console.log("you are unhealthy");
 }
+
+// const BMIMark = 24;
+// const BMIjohn = 27;
+
+// if (BMIMark > BMIjohn) {
+//   let BMI = 24;
+// } else {
+//   let BMI = 27;
+// }
+// console.log(BMIjohn, BMIMark);
