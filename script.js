@@ -81,25 +81,38 @@ console.log(ageSarah >= 18);
 
 const isFullAge = ageSarah >= 18;
 
-console.log(now - 1991 > now - 2018);
-*/
-const now = 2037;
-const ageJonas = now - 1991;
-const ageSarah = now - 2018;
+// console.log(now - 1991 > now - 2018);
+// */
+// //
 
-console.log(now - 1991 > now - 2018);
+// const firstName = "jonas";
+// const job = " teacher";
+// const birthYear = 1991;
+// const year = 2037;
+// const jonas =
+//   "I'm " + firstName + ", a " + (year - birthYear) + " years old" + job + "!";
+// console.log(jonas);
 
-console.log(25 - 10 - 5);
-let x, y;
-x = y = 25 - 10 - 5; // x = y = 10, x = 10
-console.log(x, y);
-const averageAge = ageJonas + ageSarah / 2;
-console.log(ageJonas, ageSarah, averageAge);
+// const jonasNew = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(jonasNew);
 
-const weightMark = 78;
-const weightJohn = 92;
-const heightMark = 1.69;
-const heightJohn = 1.95;
-const BMIMark = weightMark / heightMark ** 2;
-const BMIJohn = weightJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
+// console.log(`just a regular string...`);
+
+// console.log(
+//   "String with \n\
+// multiple \n\
+// lines"
+// );
+
+// console.log(`STRING
+// mulstiple
+// lines`);
+
+const age = 15;
+
+if (age >= 18) {
+  console.log("Sarah can start driving lecinse");
+} else {
+  const yearsLeft = 18 - age;
+  console.log(`sarah is too young,wait another ${yearsLeft} years :)`);
+}
