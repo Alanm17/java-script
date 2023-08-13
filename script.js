@@ -125,15 +125,15 @@ const isFullAge = ageSarah >= 18;
 //   century = 21;
 // }
 // console.log(century);
-const BMI = 30;
-const BMIMark = 24;
-const BMIjohn = 25;
+// const BMI = 30;
+// const BMIMark = 24;
+// const BMIjohn = 25;
 
-if (BMI <= 30) {
-  console.log("you are healthy");
-} else {
-  console.log("you are unhealthy");
-}
+// if (BMI <= 30) {
+//   console.log("you are healthy");
+// } else {
+//   console.log("you are unhealthy");
+// }
 
 // const BMIMark = 24;
 // const BMIjohn = 27;
@@ -144,3 +144,59 @@ if (BMI <= 30) {
 //   let BMI = 27;
 // }
 // console.log(BMIjohn, BMIMark);
+// const inPutYear = "1991";
+// console.log(Number(inPutYear));
+// console.log(Number(inPutYear) + 18);
+// console.log(Number("Jonas"));
+// console.log(typeof NaN);
+// console.log(String(23), 23);
+
+// console.log("I am " + 23 + " years old");
+// console.log("23" - "10" - 3);
+// console.log("23" / "2");
+// console.log("23" > "18");
+
+// let n = "1" + 1; //11
+// n = n - 1;
+// console.log(n);
+
+// 5 FALSY VALUES :0 , '',UNDEFINED , NULL,NaN
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean("Jonas"));
+console.log(Boolean({}));
+console.log(Boolean(""));
+
+const money = 0;
+if (money) {
+  console.log("Don't spend it all");
+} else {
+  console.log("you should get a job!");
+}
+
+let height = 0;
+if (height) {
+  console.log("yay! height is defined");
+} else {
+  console.log("height is undefined");
+}
+const age = "18";
+if (age === 18) console.log("You just became an adult :D ");
+
+if (age == 18) console.log("You just became an adult :B ");
+
+const favourite = Number(prompt("WHat's your favourite number?"));
+
+console.log(favourite);
+console.log(typeof favourite);
+
+if (favourite === 23) {
+  console.log("Cool! 23 is an amazing number");
+} else if (favourite === 7) {
+  console.log("7 is also a cool number");
+} else if (favourite === 9) {
+  console.log("9 is also a cool number");
+} else {
+  console.log("Number is not  23 or 7 or 9");
+}
