@@ -162,43 +162,93 @@ const isFullAge = ageSarah >= 18;
 
 // 5 FALSY VALUES :0 , '',UNDEFINED , NULL,NaN
 
-console.log(Boolean(0));
-console.log(Boolean(undefined));
-console.log(Boolean("Jonas"));
-console.log(Boolean({}));
-console.log(Boolean(""));
+// console.log(Boolean(0));
+// console.log(Boolean(undefined));
+// console.log(Boolean("Jonas"));
+// console.log(Boolean({}));
+// console.log(Boolean(""));
 
-const money = 0;
-if (money) {
-  console.log("Don't spend it all");
+// const money = 0;
+// if (money) {
+//   console.log("Don't spend it all");
+// } else {
+//   console.log("you should get a job!");
+// }
+
+// let height = 0;
+// if (height) {
+//   console.log("yay! height is defined");
+// } else {
+//   console.log("height is undefined");
+// }
+// const age = "18";
+// if (age === 18) console.log("You just became an adult :D ");
+
+// if (age == 18) console.log("You just became an adult :B ");
+
+// const favourite = Number(prompt("WHat's your favourite number?"));
+
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   console.log("Cool! 23 is an amazing number");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log("9 is also a cool number");
+// } else {
+//   console.log("Number is not  23 or 7 or 9");
+// }
+
+// if (favourite !== 23) console.log("why not 23?");
+
+const hasDriversLicense = true; //A
+const hasGoodVision = true; //B
+
+console.log(hasDriversLicense && hasGoodVision);
+console.log(hasDriversLicense || hasGoodVision);
+console.log(!hasDriversLicense);
+
+const shouldDrive = hasDriversLicense && hasGoodVision;
+
+// if (shouldDrive) {
+//   console.log("Sarah is able to drive!");
+// } else {
+//   console.log("someone esle should drive..");
+// }
+
+const isTired = false; //c
+console.log(hasDriversLicense && hasGoodVision && isTired);
+
+if (hasDriversLicense && hasGoodVision && !isTired) {
+  console.log("Sarah is able to drive!");
 } else {
-  console.log("you should get a job!");
+  console.log("someone esle should drive..");
+}
+const Dolphins = (96 + 110 + 89) / 3;
+const Koalas = (81 + 96 + 110) / 3;
+const score = true;
+
+// console.log(Dolphins / 3, Koalas / 3);
+
+if (Dolphins > Koalas) {
+  console.log("The dolphins = winner  ");
+} else if (Koalas > Dolphins) {
+  console.log("The Koalas = winner");
+} else if (Dolphins === Koalas) {
+  console.log(" Koalas = Dolphins");
 }
 
-let height = 0;
-if (height) {
-  console.log("yay! height is defined");
-} else {
-  console.log("height is undefined");
+// BINUS1
+const Dolphins = (97 + 112 + 101) / 3;
+const Koalas = (109 + 95 + 123) / 3;
+const score = true;
+
+if (Dolphins > Koalas) {
+  console.log("The dolphins = winner  ");
+} else if (Koalas > Dolphins) {
+  console.log("The Koalas = winner");
+} else if (Dolphins === Koalas) {
+  console.log(" Koalas = Dolphins");
 }
-const age = "18";
-if (age === 18) console.log("You just became an adult :D ");
-
-if (age == 18) console.log("You just became an adult :B ");
-
-const favourite = Number(prompt("WHat's your favourite number?"));
-
-console.log(favourite);
-console.log(typeof favourite);
-
-if (favourite === 23) {
-  console.log("Cool! 23 is an amazing number");
-} else if (favourite === 7) {
-  console.log("7 is also a cool number");
-} else if (favourite === 9) {
-  console.log("9 is also a cool number");
-} else {
-  console.log("Number is not  23 or 7 or 9");
-}
-
-if (favourite !== 23) console.log("why not 23?");
