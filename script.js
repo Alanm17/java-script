@@ -241,16 +241,57 @@ const isFullAge = ageSarah >= 18;
 // }
 
 // BINUS1
-const Dolphins = (97 + 112 + 81) / 3;
-const Koalas = (109 + 95 + 86) / 3;
-console.log(Dolphins, Koalas);
+// const Dolphins = (97 + 112 + 81) / 3;
+// const Koalas = (109 + 95 + 86) / 3;
+// console.log(Dolphins, Koalas);
 
-if (Dolphins > Koalas && Dolphins >= 100) {
-  console.log("The dolphins = winner  ");
-} else if (Koalas > Dolphins) {
-  console.log("The Koalas = winner");
-} else if (Dolphins === Koalas && Dolphins >= 100 && Koalas >= 100) {
-  console.log(" Koalas = Dolphins");
-} else {
-  console.log("No one wins the trophy");
+// if (Dolphins > Koalas && Dolphins >= 100) {
+//   console.log("The dolphins = winner  ");
+// } else if (Koalas > Dolphins) {
+//   console.log("The Koalas = winner");
+// } else if (Dolphins === Koalas && Dolphins >= 100 && Koalas >= 100) {
+//   console.log(" Koalas = Dolphins");
+// } else {
+//   console.log("No one wins the trophy");
+// }
+
+const day = "wednesday";
+
+switch (day) {
+  case "monday":
+    console.log("Plan course structure");
+    console.log("Go to coding meetup");
+    break;
+  case "tuesday":
+    console.log("Prepere Theory videos");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("Write code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "Saturday":
+  case "Sunday":
+    console.log("Enjoy the weekend :D");
+    break;
+  default:
+    console.log("Not a valid day");
+}
+
+if (day === "monday") {
+  console.log("Plan course structure");
+} else if (day === "wednesday" || day === "thursday") {
+  console.log("Go to coding meetup");
+} else if (day === "tuesday") {
+  console.log("Prepere Theory videos");
+} else if (day === "wednesday") {
+  console.log("Write code examples");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday") {
+  console.log("Enjoy the weekend :D");
+} else if (day === "sunday") {
+  console.log("Not a valid day");
 }
