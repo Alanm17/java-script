@@ -203,52 +203,54 @@ const isFullAge = ageSarah >= 18;
 
 // if (favourite !== 23) console.log("why not 23?");
 
-const hasDriversLicense = true; //A
-const hasGoodVision = true; //B
+// const hasDriversLicense = true; //A
+// const hasGoodVision = true; //B
 
-console.log(hasDriversLicense && hasGoodVision);
-console.log(hasDriversLicense || hasGoodVision);
-console.log(!hasDriversLicense);
+// console.log(hasDriversLicense && hasGoodVision);
+// console.log(hasDriversLicense || hasGoodVision);
+// console.log(!hasDriversLicense);
 
-const shouldDrive = hasDriversLicense && hasGoodVision;
+// const shouldDrive = hasDriversLicense && hasGoodVision;
 
-// if (shouldDrive) {
+// // if (shouldDrive) {
+// //   console.log("Sarah is able to drive!");
+// // } else {
+// //   console.log("someone esle should drive..");
+// // }
+
+// const isTired = false; //c
+// console.log(hasDriversLicense && hasGoodVision && isTired);
+
+// if (hasDriversLicense && hasGoodVision && !isTired) {
 //   console.log("Sarah is able to drive!");
 // } else {
 //   console.log("someone esle should drive..");
 // }
+// const Dolphins = (96 + 110 + 89) / 3;
+// const Koalas = (81 + 96 + 110) / 3;
+// const score = true;
 
-const isTired = false; //c
-console.log(hasDriversLicense && hasGoodVision && isTired);
+// // console.log(Dolphins / 3, Koalas / 3);
 
-if (hasDriversLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive!");
-} else {
-  console.log("someone esle should drive..");
-}
-const Dolphins = (96 + 110 + 89) / 3;
-const Koalas = (81 + 96 + 110) / 3;
-const score = true;
-
-// console.log(Dolphins / 3, Koalas / 3);
-
-if (Dolphins > Koalas) {
-  console.log("The dolphins = winner  ");
-} else if (Koalas > Dolphins) {
-  console.log("The Koalas = winner");
-} else if (Dolphins === Koalas) {
-  console.log(" Koalas = Dolphins");
-}
+// if (Dolphins > Koalas) {
+//   console.log("The dolphins = winner  ");
+// } else if (Koalas > Dolphins) {
+//   console.log("The Koalas = winner");
+// } else if (Dolphins === Koalas) {
+//   console.log(" Koalas = Dolphins");
+// }
 
 // BINUS1
-const Dolphins = (97 + 112 + 101) / 3;
-const Koalas = (109 + 95 + 123) / 3;
-const score = true;
+const Dolphins = (97 + 112 + 81) / 3;
+const Koalas = (109 + 95 + 86) / 3;
+console.log(Dolphins, Koalas);
 
-if (Dolphins > Koalas) {
+if (Dolphins > Koalas && Dolphins >= 100) {
   console.log("The dolphins = winner  ");
 } else if (Koalas > Dolphins) {
   console.log("The Koalas = winner");
-} else if (Dolphins === Koalas) {
+} else if (Dolphins === Koalas && Dolphins >= 100 && Koalas >= 100) {
   console.log(" Koalas = Dolphins");
+} else {
+  console.log("No one wins the trophy");
 }
