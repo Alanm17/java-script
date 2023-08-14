@@ -255,43 +255,60 @@ const isFullAge = ageSarah >= 18;
 //   console.log("No one wins the trophy");
 // }
 
-const day = "wednesday";
+// const day = "wednesday";
 
-switch (day) {
-  case "monday":
-    console.log("Plan course structure");
-    console.log("Go to coding meetup");
-    break;
-  case "tuesday":
-    console.log("Prepere Theory videos");
-    break;
-  case "wednesday":
-  case "thursday":
-    console.log("Write code examples");
-    break;
-  case "friday":
-    console.log("Record videos");
-    break;
-  case "Saturday":
-  case "Sunday":
-    console.log("Enjoy the weekend :D");
-    break;
-  default:
-    console.log("Not a valid day");
-}
+// switch (day) {
+//   case "monday":
+//     console.log("Plan course structure");
+//     console.log("Go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("Prepere Theory videos");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("Write code examples");
+//     break;
+//   case "friday":
+//     console.log("Record videos");
+//     break;
+//   case "Saturday":
+//   case "Sunday":
+//     console.log("Enjoy the weekend :D");
+//     break;
+//   default:
+//     console.log("Not a valid day");
+// }
 
-if (day === "monday") {
-  console.log("Plan course structure");
-} else if (day === "wednesday" || day === "thursday") {
-  console.log("Go to coding meetup");
-} else if (day === "tuesday") {
-  console.log("Prepere Theory videos");
-} else if (day === "wednesday") {
-  console.log("Write code examples");
-} else if (day === "friday") {
-  console.log("Record videos");
-} else if (day === "saturday") {
-  console.log("Enjoy the weekend :D");
-} else if (day === "sunday") {
-  console.log("Not a valid day");
+// if (day === "monday") {
+//   console.log("Plan course structure");
+// } else if (day === "wednesday" || day === "thursday") {
+//   console.log("Go to coding meetup");
+// } else if (day === "tuesday") {
+//   console.log("Prepere Theory videos");
+// } else if (day === "wednesday") {
+//   console.log("Write code examples");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday") {
+//   console.log("Enjoy the weekend :D");
+// } else if (day === "sunday") {
+//   console.log("Not a valid day");
+// }
+
+const age = 23;
+age >= 18
+  ? console.log("i like to drink juice")
+  : console.log("i like to drink water");
+
+const drink = age >= 18 ? "juice" : " water";
+console.log(drink);
+let drink2;
+if (age >= 18) {
+  drink2 = "juice";
+} else {
+  drink2 = "water";
 }
+console.log(drink2);
+
+console.log(`I like to drink ${age >= 18 ? "juice" : "water"}`);
